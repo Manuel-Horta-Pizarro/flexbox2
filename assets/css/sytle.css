@@ -1,0 +1,95 @@
+body{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  width: 150%;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 2;
+  width: 12em;
+}
+ul {
+  list-style-type: none;
+}
+.maria {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.navbar, li, h4, h6{
+  margin: 0;
+}
+.navbar h6{
+  opacity: 0.5;
+
+}
+.nombre{
+  display: flex;
+  padding: 3px;
+  }
+.boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .nuevo-chat{
+  width: 70%;
+  margin: 7%;
+  background-color: #A491D2;
+  color: white;
+  border: solid gray 1px;
+  cursor: pointer;
+ }
+ .nuevo-chat h3{
+  font-weight: 200;
+ }
+
+.messages {
+  height: 100vh;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  
+  
+}
+.messages ul{
+  padding: 0;
+}
+main {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+}
+
+.boxes {
+  
+  text-align: center;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
