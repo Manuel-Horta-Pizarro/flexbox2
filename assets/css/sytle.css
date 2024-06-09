@@ -1,7 +1,6 @@
 body{
   font-family: "Roboto", sans-serif;
   margin: 0;
-  width: 150%;
 }
 .container {
   display: flex;
@@ -47,39 +46,61 @@ ul {
   justify-content: center;
 }
  .nuevo-chat{
-  width: 70%;
-  margin: 7%;
+  width: 80%;
+  height: 50;
+  margin: 7.5%;
   background-color: #A491D2;
   color: white;
   border: solid gray 1px;
   cursor: pointer;
  }
  .nuevo-chat h3{
-  font-weight: 200;
+  font-weight: 100;
  }
 
 .messages {
   height: 100vh;
   overflow-y: scroll;
-  border: 1px solid #ccc;
+  border: 1px solid #f7f7f7;
   cursor: pointer;
-  
-  
-}
+} 
+
 .messages ul{
   padding: 0;
 }
-main {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  min-height: 100vh; 
+.messages {
+  max-height: 600px; 
+  overflow-y: auto;
+}
+.messages::-webkit-scrollbar {
+  width: 10px; 
 }
 
-.boxes {
+.messages::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.cuadro {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
   
+}
+.boxes {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
   text-align: center;
 }
+.texto{
+  display: flex;
+justify-content: center;
+}
+
 
 
  
